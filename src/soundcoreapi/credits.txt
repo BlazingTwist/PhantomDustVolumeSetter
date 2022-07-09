@@ -1,0 +1,4 @@
+All of this black magic is shamelessly stolen from
+https://stackoverflow.com/questions/62840338/windows-core-audio-api-changing-app-volume-wrong-audio-interface-selected-for
+
+... seriously, people who spend their day finding undocumented endpoints like this are insane (in a good way).
