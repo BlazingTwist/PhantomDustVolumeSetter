@@ -22,7 +22,7 @@ namespace PhantomDustVolumeSetter.consolearguments {
 		}
 
 		private class VolumeLevel : OptionValue {
-			public VolumeLevel() : base("volumeLevel", "specify the volume level to assign to the process", false, false) { }
+			public VolumeLevel() : base("volumeLevel", "integer value in range [0, 100], scales with your speaker volume e.g. '75' means 75% of speaker volume", false, false) { }
 		}
 
 		public class LoadResult {
