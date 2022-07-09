@@ -4,7 +4,7 @@ using System.Globalization;
 namespace PhantomDustVolumeSetter.consolearguments {
 
 	public class ProcessIdOption : ConsoleOption {
-		public LoadResult loadResult;
+		public LoadResult? loadResult;
 
 		public ProcessIdOption() : base("processID", "select the process by using one or more processIDs (pid)", new ProcessId()) { }
 

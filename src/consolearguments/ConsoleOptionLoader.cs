@@ -7,8 +7,8 @@ namespace PhantomDustVolumeSetter.consolearguments {
 	public static class ConsoleOptionLoader {
 		public static bool LoadOptions(string[] args, params ConsoleOption[] options) {
 			try {
-				string currentOption = null;
-				List<string> optionValues = null;
+				string? currentOption = null;
+				List<string>? optionValues = null;
 
 				bool CheckLoadOption() {
 					if (optionValues != null) {

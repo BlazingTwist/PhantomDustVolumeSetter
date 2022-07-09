@@ -3,7 +3,7 @@
 namespace PhantomDustVolumeSetter.consolearguments {
 
 	public class VolumeOption : ConsoleOption {
-		public LoadResult loadResult;
+		public LoadResult? loadResult;
 
 		public VolumeOption() : base("volume", "specify the volume level to assign to the process", new VolumeLevel()) { }
 

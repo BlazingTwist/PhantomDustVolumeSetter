@@ -4,7 +4,7 @@ using System.Linq;
 namespace PhantomDustVolumeSetter.consolearguments {
 
 	public class ProcessNameOption : ConsoleOption {
-		public LoadResult loadResult;
+		public LoadResult? loadResult;
 
 		public ProcessNameOption() : base("processName", "select the process by using one or more process names", new ProcessName()) { }
 
