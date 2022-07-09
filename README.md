@@ -3,8 +3,12 @@ A simple command line tool that lets you set the volume of running applications.
 ### Sample Phantom Dust batch script:
 ```shell
 start "C:\Windows\explorer.exe" shell:AppsFolder\Microsoft.MSEsper_8wekyb3d8bbwe!App
-start <PATH_TO_PhantomDustVolumeSetter.exe> --volume <YOUR_VOLUME_LEVEL_HERE>
+timeout 1
+cd <DIRECTORY_OF_PhantomDustVolumeSetter>
+PhantomDustVolumeSetter.exe --volume 10
+pause
 ```
+Make sure to replace `<DIRECTORY_OF_PhantomDustVolumeSetter>` with the actual path, e.g. `"D:\Tools\pdvs\"`
 
 ### Example command line usages:
 |command|description|
